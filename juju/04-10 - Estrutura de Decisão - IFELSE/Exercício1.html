@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Título da página</title>
+    <meta charset="UTF-8">
+    <script>
+        var nota1 = parseFloat(prompt("digite nota 1"))
+        var nota2 = parseFloat(prompt("digite nota 2"))
+
+        media = (nota1 + nota2)/2
+        console.log(media)
+        if(media >= 6.0){
+            console.log ("aprovado")
+        } else {
+            console.log("exame")
+            var exame = parseFloat(prompt("Digite a nota no exame"))
+            var final = (media + exame)/2
+            console.log(final)
+
+        } if (final >= 6){
+            console.log("Aprovado")
+        } else{
+            console.log("Reprovado")
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
